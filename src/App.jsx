@@ -69,6 +69,10 @@ function App() {
   const toggleCarro = () => {
     setCarrovisible(!carrovisible);
   }
+  const borrarCarrito = () =>{
+    
+  setCartItems([]);
+  }
   return (
     <>
       <nav className="navbar">
@@ -96,7 +100,7 @@ function App() {
               ))}
              <div className="divTotal"><p className="pTotal">Total: ${cartItems.reduce((total, item) => total + (item.price * item.cantidad), 0)}</p></div>
              <div className="flexin">
-             <Button variant="outlined"  className="buttonMUI" startIcon={<Delete />}>
+             <Button variant="outlined"  className="buttonMUI" onClick={()=> borrarCarrito()} startIcon={<Delete />}>
  Vaciar Carrito
 </Button>
              <Button variant="contained" className="buttonMUIC">Comprar</Button>
