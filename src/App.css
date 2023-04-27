@@ -1,0 +1,139 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.border{
+   border:1px solid #eee;
+   box-shadow: 0px 5px 5px rgb(0,0,0, 0.1);
+   width: 30%;
+   padding: 10px 15px;
+   border-radius: 5px;
+}
+.img{
+  width: 100%;
+}
+.Button{
+  background-color: #0a283e;
+  color:#fff;
+  padding: 15px 20px;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.layout{
+  background-color: #fff;
+  color: #0A283e;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.container{
+  width: 1200px;
+}
+.Titulo{
+  margin-bottom: 30px;
+  color: #0A283e;
+
+
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px 50px;
+  box-shadow: 0 2px 3px rgb(0,0,0, 0.1);
+}
+.Shop{
+  color: #0A283e;
+
+  font-weight: 700;
+  font-size:2rem;
+}
+.button{
+  background-color: #359A2C;
+  color:#fff;
+  border: none;
+  padding:15px;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+.span{
+  background-color: #E9725A;
+  border-radius: 15px;
+  color:#fff;
+  padding: 2px 10px;
+  font-size: 0.9rem;
+  width: 20px;
+  position: relative;
+  left: 12px;
+  top:20px;
+}
+.padding{
+  padding-top:10px
+}
+.paddingx{
+  padding:10px
+}
+.bgcolor{
+  background-color: #fff;
+  position: absolute;
+  margin-top: 30px;
+  box-shadow: 1px 5px 5px rgb(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 300px;
+  right: 50px;
+}
+.ulStyles{
+margin:0px;
+padding:0px;
+}
+.liStyles{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+  border-bottom: 1px solid #aaa;
+}
+.buttonMore{
+  padding:10px;
+  border-radius:5px
+;  border:none
+}
+.divTotal{
+  padding:15px;
+  color:#0A283e;
+}
+
+.pTotal{
+  color:#0A283e;
+  font-size: 1.2rem;
+
+}
+.flexin{
+  display: flex;
+  justify-content: space-around;
+  padding:5px;
+}
+.buttonMUIC{
+  background-color: #0A283e !important;
+  color: #fff ;
+}
+.buttonMUI{
+  background-color: #fff !important;
+  color: #0A283e !important ;
+}
